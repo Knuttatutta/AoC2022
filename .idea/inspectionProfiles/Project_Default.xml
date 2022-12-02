@@ -1,0 +1,53 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyChainedComparisonsInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoreConstantInTheMiddle" value="true" />
+    </inspection_tool>
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="10">
+            <item index="0" class="java.lang.String" itemvalue="numpy" />
+            <item index="1" class="java.lang.String" itemvalue="rhdhv_eurocode" />
+            <item index="2" class="java.lang.String" itemvalue="rhdhv_column_reinforcement" />
+            <item index="3" class="java.lang.String" itemvalue="rhdhv_fem" />
+            <item index="4" class="java.lang.String" itemvalue="datafusr_py_base" />
+            <item index="5" class="java.lang.String" itemvalue="rhdhv_punching_reinforcement" />
+            <item index="6" class="java.lang.String" itemvalue="xlwings" />
+            <item index="7" class="java.lang.String" itemvalue="pywin32" />
+            <item index="8" class="java.lang.String" itemvalue="PyQt5" />
+            <item index="9" class="java.lang.String" itemvalue="specklepy" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="E221" />
+          <option value="E251" />
+          <option value="E266" />
+          <option value="E101" />
+          <option value="E128" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N806" />
+          <option value="N802" />
+          <option value="N803" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="abaqus_utils.abaqus_specific.output_storage.*" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
